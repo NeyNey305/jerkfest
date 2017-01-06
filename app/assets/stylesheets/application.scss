@@ -15,12 +15,271 @@
  @import "bootstrap";
 
 body {
-  background-color: #131314;
+  background-color: black;
 }
 
 .navbar-default {
-  background-color: #ff6a00;
+  background-color: black;
   border: none;
   border-radius: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
 
+.navbar-header {
+  float: left;
+  padding-top: 0.5em;
+  padding-right: 4em;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #ff6a00;
+  padding-left: 2em;
+
+}
+
+.reg-login {
+  text-decoration: none;
+  color: #ff6a00;
+  padding-right: 1em;
+
+}
+
+.reg-login:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.jf-logo {
+  float: right;
+  color: #ff6a00;
+}
+
+.jf-logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.input-form {
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.form-inputs {
+  width: 300px;
+  margin-left: 500px;
+}
+
+
+#iphone-resize {
+  // margin-right: -50px;
+}
+
+.iphone-mock {
+  float: right;
+  margin-right: -100px;
+  padding-top: 1em;
+  margin-left: -20px;
+  // background-color: white;
+  // background-image: url("http://bestdressedplate.com/wp-content/uploads/2016/07/JerkFest-Crowd.jpg");
+  // height: 500px;
+  // width: auto;
+
+  // position: relative;
+}
+
+.info {
+  color: white;
+  // float: left;
+  margin-top: -700px;
+  padding-left: 5em;
+  font-family: 'Nunito', sans-serif;
+  line-height: 2em;
+  font-size: 16px;
+  position: static;
+
+}
+
+
+.info-text {
+  color: white;
+  font-size: 35px;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 12em;
+
+}
+
+#jf-name {
+  color: #ff6a00;
+}
+
+
+
+// .app-info {
+//   background-color: white;
+//   background-image: url("http://bestdressedplate.com/wp-content/uploads/2016/07/JerkFest-Crowd.jpg");
+//   height: 500px;
+//   width: auto;
+// }
+
+.jumbotron {
+  background-image: url("http://bestdressedplate.com/wp-content/uploads/2016/07/JerkFest-Crowd.jpg");
+  height: 500px;
+}
+
+.fa-users {
+  font-size: 8em;
+  color: #ede323;
+}
+
+.fa-credit-card {
+  color: #53c92c;
+
+}
+
+
+.fa-info-circle {
+  color: #ea8d2a;
+}
+
+
+#feature-text {
+  font-size: 14px;
+  // text-align: center;
+}
+
+#feature-text-head {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+// .features {
+//   font-size: 5em;
+//   // padding-left: 0.5em;
+//   display: inline-flex;
+//   position: relative;
+//   margin-top: 0;
+//   background-color: white;
+//   width: 100%;
+//   padding-top: 0.5em;
+//   padding-bottom: 0.5em;
+// }
+
+.container-fluid {
+  // display: inline-flex;
+}
+
+#row-info {
+  font-size: 5em;
+  // padding-left: 0.5em;
+  display: inline-flex;
+  // position: relative;
+  // margin-top: 0;
+  background-color: white;
+  width: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+
+.users {
+  // padding-right: 1em;
+  // margin-left: -50px;
+  // border-right: 1px solid #cccccc;
+  text-align: center;
+  // padding-left: 0.2em;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.credit-card {
+  // padding-left: 0.5em;
+  // padding-right: 0.5em;
+  // border-right: 1px solid #cccccc;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
+.info-circle {
+  // padding-left: 1em;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+
+  // border-left: 1px solid black;
+}
+
+li {
+  list-style: none;
+}
+
+
+.jf-footer {
+  background-color: black;
+}
+
+.social-media {
+  font-size: 2em;
+  // float: right;
+  // padding-top: 4em;
+  // padding-right: 5em;
+  position: relative;
+  float: right;
+  font-family: 'Nunito', sans-serif;
+}
+
+.app-store {
+  float: right;
+}
+
+.jf-locations {
+  padding-top: 4em;
+  // padding-left: 4em;
+  // position: relative;
+}
+
+.locations {
+  color: #ff6a00;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.locations:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#follow {
+  // float: right;
+  // padding-left: 15em;
+  margin-top: -100px;
+  font-size: 16px;
+  color: #53c92c;
+  margin-left: 200px;
+
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+#sm-icons {
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.grace-logo {
+  margin-top: -40px;
+  margin-left: -90px;
+  margin-right: 0;
 }

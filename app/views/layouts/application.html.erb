@@ -3,21 +3,32 @@
   <head>
     <title>Jerkfest</title>
     <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script src="https://use.fontawesome.com/8c0cd0878a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.js" type="text/javascript">
+
+    </script>
+
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
+    <!-- <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
+            <a href="/users/sign_up" class="reg-login">SIGN-UP</a>
+            <a href="/users/sign_in" class="reg-login">LOGIN</a> -->
+            <!-- <a href="/" class="jf-logo">JERKFEST</a> -->
 
-        </div>
+
+        <!-- </div>
       </div>
-    </nav>
-    <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
+    </nav> -->
+    <!-- <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p> -->
     <%= yield %>
   </body>
 </html>
